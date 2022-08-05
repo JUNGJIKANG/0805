@@ -30,6 +30,7 @@ public class Input {
 			this.array[count - 1] = new Student(hakbun, name, kor, eng, mat, edp);
 			System.out.print("계속(I/O) ? : ");
 			io = this.sc.next();
+			this.sc.nextLine();
 		} while (io.equals("I") || io.equals("i"));
 		return count;
 	}
